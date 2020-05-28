@@ -1,0 +1,25 @@
+{
+  "name": "hashinclude72.github.io",
+  "version": "1.0.0",
+  "description": "hashinclude72's personal website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -o",
+    "format": "prettier --write 'src/*.js'",
+    "lint": "prettier --check 'src/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashinclude72/hashinclude72.github.io.git"
+  },
+  "author": "Shubham Jaswal <shubhamjaswal772@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashinclude72/hashinclude72.github.io/issues"
+  },
+  "homepage": "https://github.com/hashinclude72/hashinclude72.github.io#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "prettier": "^2.0.2"
+  }
+}

@@ -16,6 +16,7 @@ const struct = {
 const commands = {};
 let systemData = {};
 const rootPath = 'users/hashinclude72/root';
+const user = 'hashinclude72'
 
 const getDirectory = () => localStorage.directory;
 const setDirectory = (dir) => {
@@ -69,6 +70,9 @@ commands.path = () => {
     const dir = getDirectory();
     return dir === 'root' ? rootPath : `${rootPath}/${dir}`;
 };
+
+// Display current user details.
+commands.whoami = () => user;
 
 // See command history.
 commands.history = () => {

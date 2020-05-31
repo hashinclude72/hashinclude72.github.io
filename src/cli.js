@@ -16,7 +16,7 @@ const struct = {
 const commands = {};
 let systemData = {};
 const rootPath = 'users/hashinclude72/root';
-const user = 'hashinclude72'
+const user = 'hashinclude72';
 
 const getDirectory = () => localStorage.directory;
 const setDirectory = (dir) => {

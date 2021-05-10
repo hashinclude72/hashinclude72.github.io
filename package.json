@@ -20,6 +20,6 @@
   "homepage": "https://github.com/hashinclude72/hashinclude72.github.io#readme",
   "devDependencies": {
     "http-server": "^0.12.3",
-    "prettier": "^2.0.2"
+    "prettier": "^2.3.0"
   }
 }
